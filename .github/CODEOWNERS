@@ -1,0 +1,7 @@
+# Custodial Ownership
+module.test.mjs       @custodians
+yarn.lock             @custodians
+package.json          @custodians
+
+# Team Ownership
+/packages/survival/   @survivors

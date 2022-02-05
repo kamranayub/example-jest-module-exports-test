@@ -1,0 +1,38 @@
+{
+  "name": "jest-module-export-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "mjs",
+      "js",
+      "jsx",
+      "ts",
+      "tsx",
+      "json",
+      "node"
+    ],
+    "testMatch": [
+      "**/?(*.)test.?js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "transform": {
+      "^.+\\.m?js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "\\.pnp\\.[^\\/]+$"
+    ]
+  }
+}
